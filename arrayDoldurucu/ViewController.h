@@ -1,0 +1,21 @@
+//
+//  ViewController.h
+//  arrayDoldurucu
+//
+//  Created by Erk EKİN on 12/18/11.
+//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "randomDiziOlustur.h"
+@interface ViewController : UIViewController
+
+{
+
+    IBOutlet UITextField * fromField;
+     IBOutlet UITextField * toField;
+}
+
+
+-(IBAction)yardir:(id)sender;
+@end

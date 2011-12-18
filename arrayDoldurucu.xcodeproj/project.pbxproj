@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFECA6BF149E585400C3C50C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFECA6BE149E585400C3C50C /* UIKit.framework */; };
+		FFECA6C1149E585400C3C50C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFECA6C0149E585400C3C50C /* Foundation.framework */; };
+		FFECA6C3149E585400C3C50C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFECA6C2149E585400C3C50C /* CoreGraphics.framework */; };
+		FFECA6C9149E585400C3C50C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFECA6C7149E585400C3C50C /* InfoPlist.strings */; };
+		FFECA6CB149E585400C3C50C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFECA6CA149E585400C3C50C /* main.m */; };
+		FFECA6CF149E585400C3C50C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFECA6CE149E585400C3C50C /* AppDelegate.m */; };
+		FFECA6D2149E585400C3C50C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFECA6D1149E585400C3C50C /* ViewController.m */; };
+		FFECA6D5149E585400C3C50C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFECA6D3149E585400C3C50C /* ViewController_iPhone.xib */; };
+		FFECA6D8149E585400C3C50C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFECA6D6149E585400C3C50C /* ViewController_iPad.xib */; };
+		FFECA6E0149E79F400C3C50C /* randomDiziOlustur.m in Sources */ = {isa = PBXBuildFile; fileRef = FFECA6DF149E79F400C3C50C /* randomDiziOlustur.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFECA6BA149E585400C3C50C /* arrayDoldurucu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arrayDoldurucu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFECA6BE149E585400C3C50C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFECA6C0149E585400C3C50C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFECA6C2149E585400C3C50C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FFECA6C6149E585400C3C50C /* arrayDoldurucu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "arrayDoldurucu-Info.plist"; sourceTree = "<group>"; };
+		FFECA6C8149E585400C3C50C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFECA6CA149E585400C3C50C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFECA6CC149E585400C3C50C /* arrayDoldurucu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arrayDoldurucu-Prefix.pch"; sourceTree = "<group>"; };
+		FFECA6CD149E585400C3C50C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFECA6CE149E585400C3C50C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFECA6D0149E585400C3C50C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFECA6D1149E585400C3C50C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFECA6D4149E585400C3C50C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		FFECA6D7149E585400C3C50C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		FFECA6DE149E79F400C3C50C /* randomDiziOlustur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randomDiziOlustur.h; sourceTree = "<group>"; };
+		FFECA6DF149E79F400C3C50C /* randomDiziOlustur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = randomDiziOlustur.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFECA6B7149E585400C3C50C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFECA6BF149E585400C3C50C /* UIKit.framework in Frameworks */,
+				FFECA6C1149E585400C3C50C /* Foundation.framework in Frameworks */,
+				FFECA6C3149E585400C3C50C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFECA6AF149E585400C3C50C = {
+			isa = PBXGroup;
+			children = (
+				FFECA6C4149E585400C3C50C /* arrayDoldurucu */,
+				FFECA6BD149E585400C3C50C /* Frameworks */,
+				FFECA6BB149E585400C3C50C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFECA6BB149E585400C3C50C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFECA6BA149E585400C3C50C /* arrayDoldurucu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFECA6BD149E585400C3C50C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFECA6BE149E585400C3C50C /* UIKit.framework */,
+				FFECA6C0149E585400C3C50C /* Foundation.framework */,
+				FFECA6C2149E585400C3C50C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFECA6C4149E585400C3C50C /* arrayDoldurucu */ = {
+			isa = PBXGroup;
+			children = (
+				FFECA6CD149E585400C3C50C /* AppDelegate.h */,
+				FFECA6CE149E585400C3C50C /* AppDelegate.m */,
+				FFECA6D0149E585400C3C50C /* ViewController.h */,
+				FFECA6D1149E585400C3C50C /* ViewController.m */,
+				FFECA6DE149E79F400C3C50C /* randomDiziOlustur.h */,
+				FFECA6DF149E79F400C3C50C /* randomDiziOlustur.m */,
+				FFECA6D3149E585400C3C50C /* ViewController_iPhone.xib */,
+				FFECA6D6149E585400C3C50C /* ViewController_iPad.xib */,
+				FFECA6C5149E585400C3C50C /* Supporting Files */,
+			);
+			path = arrayDoldurucu;
+			sourceTree = "<group>";
+		};
+		FFECA6C5149E585400C3C50C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFECA6C6149E585400C3C50C /* arrayDoldurucu-Info.plist */,
+				FFECA6C7149E585400C3C50C /* InfoPlist.strings */,
+				FFECA6CA149E585400C3C50C /* main.m */,
+				FFECA6CC149E585400C3C50C /* arrayDoldurucu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFECA6B9149E585400C3C50C /* arrayDoldurucu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFECA6DB149E585400C3C50C /* Build configuration list for PBXNativeTarget "arrayDoldurucu" */;
+			buildPhases = (
+				FFECA6B6149E585400C3C50C /* Sources */,
+				FFECA6B7149E585400C3C50C /* Frameworks */,
+				FFECA6B8149E585400C3C50C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arrayDoldurucu;
+			productName = arrayDoldurucu;
+			productReference = FFECA6BA149E585400C3C50C /* arrayDoldurucu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFECA6B1149E585400C3C50C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FFECA6B4149E585400C3C50C /* Build configuration list for PBXProject "arrayDoldurucu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFECA6AF149E585400C3C50C;
+			productRefGroup = FFECA6BB149E585400C3C50C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFECA6B9149E585400C3C50C /* arrayDoldurucu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFECA6B8149E585400C3C50C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFECA6C9149E585400C3C50C /* InfoPlist.strings in Resources */,
+				FFECA6D5149E585400C3C50C /* ViewController_iPhone.xib in Resources */,
+				FFECA6D8149E585400C3C50C /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFECA6B6149E585400C3C50C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFECA6CB149E585400C3C50C /* main.m in Sources */,
+				FFECA6CF149E585400C3C50C /* AppDelegate.m in Sources */,
+				FFECA6D2149E585400C3C50C /* ViewController.m in Sources */,
+				FFECA6E0149E79F400C3C50C /* randomDiziOlustur.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFECA6C7149E585400C3C50C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFECA6C8149E585400C3C50C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FFECA6D3149E585400C3C50C /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFECA6D4149E585400C3C50C /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FFECA6D6149E585400C3C50C /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFECA6D7149E585400C3C50C /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFECA6D9149E585400C3C50C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFECA6DA149E585400C3C50C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFECA6DC149E585400C3C50C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arrayDoldurucu/arrayDoldurucu-Prefix.pch";
+				INFOPLIST_FILE = "arrayDoldurucu/arrayDoldurucu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FFECA6DD149E585400C3C50C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arrayDoldurucu/arrayDoldurucu-Prefix.pch";
+				INFOPLIST_FILE = "arrayDoldurucu/arrayDoldurucu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFECA6B4149E585400C3C50C /* Build configuration list for PBXProject "arrayDoldurucu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFECA6D9149E585400C3C50C /* Debug */,
+				FFECA6DA149E585400C3C50C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFECA6DB149E585400C3C50C /* Build configuration list for PBXNativeTarget "arrayDoldurucu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFECA6DC149E585400C3C50C /* Debug */,
+				FFECA6DD149E585400C3C50C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFECA6B1149E585400C3C50C /* Project object */;
+}
